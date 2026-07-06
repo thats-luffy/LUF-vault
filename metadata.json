@@ -1,0 +1,6 @@
+{
+  "name": "LUF Vault",
+  "description": "صندوقچه امن و پنهان فایل‌های شما",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

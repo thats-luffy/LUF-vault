@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">LUF Vault</string>
+    <string name="app_title">صندوقچه امن LUF</string>
+    <string name="setup_wizard">راهنمای تنظیمات اولیه</string>
+    <string name="setup_password_hint">رمز عبور خود را وارد کنید (حداقل ۶ کاراکتر)</string>
+    <string name="setup_confirm_password">تکرار رمز عبور</string>
+    <string name="setup_biometric">فعال‌سازی ورود با اثر انگشت (در صورت پشتیبانی)</string>
+    <string name="setup_key_file_title">انتخاب فایل کلید امنیتی</string>
+    <string name="setup_key_file_desc">لطفاً یک فایل (مثلاً یک تصویر، آهنگ یا هر فایل دلخواه دیگر) را به عنوان کلید ورود انتخاب کنید. برنامه فقط در صورتی باز می‌شود که این فایل را با LUF Vault باز کنید.</string>
+    <string name="setup_key_file_button">انتخاب فایل کلید</string>
+    <string name="setup_key_file_selected">فایل کلید انتخاب شده: %1$s</string>
+    <string name="setup_permissions_title">درخواست مجوزهای دسترسی</string>
+    <string name="setup_permissions_desc">برای مخفی‌سازی و مدیریت فایل‌ها، به مجوز دسترسی به حافظه نیاز داریم.</string>
+    <string name="setup_permissions_button">اعطای مجوزها</string>
+    <string name="setup_complete_button">اتمام تنظیمات و خروج از برنامه</string>
+    <string name="setup_success_msg">تنظیمات با موفقیت انجام شد. برنامه بسته می‌شود. برای ورود بعدی، فایل کلید را انتخاب کرده و با برنامه LUF Vault باز کنید.</string>
+    
+    <string name="login_enter_password">رمز عبور صندوقچه را وارد کنید</string>
+    <string name="login_password_placeholder">رمز عبور</string>
+    <string name="login_button">ورود امن</string>
+    <string name="login_biometric_prompt">ورود با اثر انگشت</string>
+    <string name="login_biometric_reason">برای ورود به صندوقچه اثر انگشت خود را اسکن کنید</string>
+    <string name="login_incorrect_password">رمز عبور نادرست است. %1$d تلاش دیگر تا قفل شدن.</string>
+    <string name="login_locked">برنامه به دلیل تلاش‌های نادرست قفل شده است. زمان باقی‌مانده: %1$s</string>
+    <string name="login_direct_attempt_msg">دسترسی مستقیم غیرمجاز است! برای باز کردن صندوقچه، باید فایل کلید خود را پیدا کرده و آن را با برنامه LUF Vault باز کنید (Open With).</string>
+    <string name="login_invalid_key_msg">فایل باز شده با کلید ثبت‌شده مطابقت ندارد! دسترسی به صندوقچه امکان‌پذیر نیست.</string>
+    <string name="close_app">خروج از برنامه</string>
+    
+    <string name="tab_images">تصاویر</string>
+    <string name="tab_videos">ویدیوها</string>
+    <string name="tab_documents">اسناد</string>
+    <string name="tab_apk">برنامه‌ها (APK)</string>
+    <string name="tab_archives">آرشیوها</string>
+    <string name="tab_audio">صداها</string>
+    <string name="tab_others">دیگر فایل‌ها</string>
+    
+    <string name="import_files_title">وارد کردن فایل‌ها به صندوقچه</string>
+    <string name="import_select_button">انتخاب فایل‌ها برای پنهان‌سازی</string>
+    <string name="import_storage_info">فضای در دسترس: %1$s | فضای مورد نیاز: %2$s</string>
+    <string name="import_insufficient_storage">فضای حافظه کافی نیست!</string>
+    <string name="import_option_copy">کپی کردن به صندوقچه (فایل اصلی باقی می‌ماند)</string>
+    <string name="import_option_move">انتقال به صندوقچه (فایل اصلی حذف می‌شود)</string>
+    <string name="import_progress">در حال وارد کردن و رمزگذاری فایل‌ها… %1$d%%</string>
+    <string name="import_success">فایل‌ها با موفقیت رمزگذاری و در صندوقچه پنهان شدند.</string>
+    
+    <string name="export_title">خروج فایل از صندوقچه</string>
+    <string name="export_button">خروجی گرفتن (رمزگشایی)</string>
+    <string name="export_progress">در حال صادر کردن و رمزگشایی فایل‌ها… %1$d%%</string>
+    <string name="export_success">فایل‌ها با موفقیت رمزگشایی و در پوشه Downloads/LUF ذخیره شدند.</string>
+    
+    <string name="settings_title">تنظیمات صندوقچه امن</string>
+    <string name="settings_prevent_screenshots">جلوگیری از اسکرین‌شات</string>
+    <string name="settings_prevent_recordings">جلوگیری از ضبط صفحه</string>
+    <string name="settings_theme">پوسته برنامه</string>
+    <string name="settings_theme_system">هماهنگ با سیستم</string>
+    <string name="settings_theme_light">روشن</string>
+    <string name="settings_theme_dark">تاریک</string>
+    <string name="settings_change_password">تغییر رمز عبور</string>
+    <string name="settings_biometrics">ورود با بیومتریک (اثر انگشت)</string>
+    <string name="settings_lock_timeout">زمان قفل شدن پس از ۵ تلاش اشتباه</string>
+    <string name="settings_lock_timeout_1m">۱ دقیقه</string>
+    <string name="settings_lock_timeout_5m">۵ دقیقه</string>
+    <string name="settings_lock_timeout_30m">۳۰ دقیقه</string>
+    <string name="settings_change_key_file">تغییر فایل کلید امنیتی</string>
+    <string name="settings_about">درباره صندوقچه LUF</string>
+    
+    <string name="empty_gallery_title">صندوقچه خالی است</string>
+    <string name="empty_gallery_desc">هیچ فایلی هنوز پنهان نشده است. با زدن دکمه + فایل‌های خود را به صورت امن و رمزگذاری شده مخفی کنید.</string>
+    <string name="search_placeholder">جستجوی فایل‌ها…</string>
+    <string name="sort_by_name">نام</string>
+    <string name="sort_by_size">اندازه</string>
+    <string name="sort_by_date">تاریخ ورود</string>
+    <string name="delete_confirm_title">حذف دائم</string>
+    <string name="delete_confirm_desc">آیا مطمئن هستید که می‌خواهید این فایل‌ها را برای همیشه حذف کنید؟ این عمل غیرقابل بازگشت است.</string>
+    <string name="delete_button">حذف دائم</string>
+    <string name="cancel">انصراف</string>
+</resources>
