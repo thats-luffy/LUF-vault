@@ -1,21 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+ LUF Vault
 
-# Run and deploy your AI Studio app
+ فارسی
 
-This contains everything you need to run your app locally.
+LUF Vault یک اپلیکیشن اندرویدی برای مخفی‌سازی امن فایل‌های شخصی است که با Kotlin و Jetpack Compose ساخته می‌شود.
 
-View your app in AI Studio: https://ai.studio/apps/ef36c766-ee74-4ddb-a9ed-25802710b81c
+ ویژگی‌ها
+- رمزنگاری فایل‌ها با AES-۲۵۶ و ذخیره کلید در Android Keystore
+- ورود با رمز عبور و امکان احراز هویت بیومتریک
+- قفل خودکار پس از چند بار ورود اشتباه
+- پشتیبانی از انواع فایل: تصویر، ویدیو، صدا، سند، آرشیو، APK
+- گالری داخلی با نمایش دسته‌بندی‌شده و پخش‌کننده تصویر/ویدیو/صدا
+- وارد کردن و خروجی گرفتن فایل‌ها (کپی یا انتقال)
+- تنظیمات کامل: تم، زبان، قفل خودکار، محافظت از اسکرین‌شات
+- معماری MVVM با Room، Hilt، Coroutines و StateFlow
 
-## Run Locally
+---
 
-**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+ English
 
+LUF Vault is an Android application for securely hiding personal files, built with Kotlin and Jetpack Compose.
 
-1. Open Android Studio
-2. Select **Open** and choose the directory containing this project
-3. Allow Android Studio to fix any incompatibilities as it imports the project.
-4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
-5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
-6. Run the app on an emulator or physical device
+ Features
+- AES-۲۵۶ file encryption with keys stored in Android Keystore
+- Password login with optional biometric authentication
+- Auto-lock after multiple failed login attempts
+- Support for images, videos, audio, documents, archives, and APK files
+- Built-in gallery with categorized tabs and media playback
+- Import/export files (copy or move)
+- Full settings: theme, language, auto-lock timeout, screenshot protection
+- MVVM architecture with Room, Hilt, Coroutines, and StateFlow
